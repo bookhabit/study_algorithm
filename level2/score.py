@@ -2,7 +2,6 @@
 score = input()
 score = int(score)
 
-#print(A,B)
 if 90 <= score <= 100 :
     print('A')
 elif 80 <= score <= 89:
