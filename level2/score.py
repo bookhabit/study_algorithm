@@ -1,3 +1,4 @@
+#시험 성적
 score = input()
 score = int(score)
 
