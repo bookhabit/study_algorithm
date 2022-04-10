@@ -13,6 +13,6 @@ for i in range(c):
     for i in score:
         if i > score_average :
             high_student +=1
-    result = high_student/student*100
-    print(f'{result: .3f}%')
+    result = high_student/student*100 
+    print(f'{result: .3f}%') #.3f 3째자리까지 실수
     
