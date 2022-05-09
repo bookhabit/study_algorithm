@@ -10,9 +10,10 @@ arr = []
 for i in range(n):
     coin=int(input())
     arr.append(coin)
-arr.sort(reverse=True)
-# print(arr)
 # arr = [1,5,10,50,100,500,1000,5000,10000,50000] 동전의 종류가 배열에 담김
+arr.sort(reverse=True)
+# arr = [50000,10000,5000,1000,500,100,50,10,5,1] 동전의 종류를 큰 순서로 배열을 바꿈
+# print(arr)
 count =0
 
 for coin in arr :
