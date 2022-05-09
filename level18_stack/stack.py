@@ -1,5 +1,6 @@
 #정수를 저장하는 스택을 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.
 #def stack():
+import sys
 class stack_class :
     def __init__(self):
         self.stack = []
@@ -39,7 +40,8 @@ st = stack_class()
 # st.top()
 # st.pop()
 
-n = int(input())
+# n = int(input()))
+n = int( sys.stdin.readline())
 
 for i in range(n):
     x = input()  # 명령어 입력
